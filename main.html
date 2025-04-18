@@ -8,6 +8,45 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<div class="name">
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" required aria-required="true">
+		</div><br>
+		<div class="email">
+			<label for="email">Email</label>
+			<input type="email" name="name" id="email" aria-required="true" required>
+		</div><br>
+		<div class="gender">
+			<legend>Gender</legend>
+			<input type="radio" id="gender" name="gender" value="male" aria-required="true" required>
+			<label for="male">Male</label>
+			<input type="radio" id="gender" name="gender" value="female" aria-required="true" required>
+			<label for="female">Female</label>
+		</div><br>
+		<div class="car">
+			<select id="cars">
+				<option value="bmw">BMW</option>
+				<option value="audi">Audi</option>
+				<option value="mercedez">Mercedez</option>
+			</select>
+		</div><br>
+		<div class="age">
+			<label for="age">Car Age</label>
+			<input type="number" name="carage" id="carage" aria-required="true" required>
+		</div><br>
+		<div class="date">
+			<label for="date">Date of Purchase(dop)</label>
+			<input type="date" name="date" id="dop" aria-required="true" required>
+		</div><br>
+		<div class="password">
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" aria-required="true" required>
+		</div><br>
+		<button type="submit">Submit Button</button>
+			
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
